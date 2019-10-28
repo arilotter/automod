@@ -79,7 +79,7 @@ pub fn dir(input: TokenStream) -> TokenStream {
 fn mod_item(name: String) -> TokenStream2 {
     let ident = Ident::new(&name, Span::call_site());
     quote! {
-        mod #ident;
+        pub mod #ident;
     }
 }
 
