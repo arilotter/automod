@@ -1,11 +1,10 @@
 [package]
-name = "automod"
-version = "0.1.2"
-authors = ["David Tolnay <dtolnay@gmail.com>"]
+name = "pub-automod"
+version = "0.1.0"
+authors = ["David Tolnay <dtolnay@gmail.com>", "Ari Lotter <arilotter@gmail.com>"]
 license = "MIT OR Apache-2.0"
 description = "Pull in every source file in a directory as a module."
-repository = "https://github.com/dtolnay/automod"
-documentation = "https://docs.rs/automod"
+repository = "https://github.com/arilotter/automod"
 readme = "README.md"
 edition = "2018"
 
